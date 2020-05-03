@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with flexbox</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card__left">
+            <img src="src/assets/img/logo.png" alt="form photo">
+        </div>
+        <div class="card__right">
+            <div class="card__title">
+                <h2>Contactos</h2>
+            </div>
+            <form class="form">
+                <div class="form__names">
+                    <div class="form__field">
+                        <label for="name" class="form__label">Nombre</label>
+                        <input type="text" class="form__input"  id="name">
+                    </div>
+                    <div class="form__field">
+                        <label for="surname" class="form__label">Apellido</label>
+                        <input type="text" class="form__input"  id="surname">
+                    </div>
+                </div>
+
+                <div class="form__field">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" class="form__input"  id="email">
+                </div>
+                <div class="form__field">
+                    <label class="form__label">Mensaje</label>
+                    <textarea name="message" id="message" class="form__textarea"></textarea>
+                </div>
+
+                <input type="submit" class="form__submit" value="Enviar">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
